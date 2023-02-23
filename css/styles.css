@@ -1,3 +1,14 @@
+img {
+  width: 100%;
+}
 
+section .gallery-gap {
+  margin: 2.5rem auto 2.5rem;
+}
+section .gallery__ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem 4.875rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
