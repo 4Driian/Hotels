@@ -9,11 +9,38 @@
   </head>
 
   <body>
+    <header>
+      <nav role="navigation"> <!--Navigation for mobile-->
+        <div class="navigation__menu-toggle">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="navigation__menu">
+            <li><a href="#"><img class="nav-principal__logo" src="assets/img/elements/hotel-logo-white.svg" alt=""></a></li>
+            <li><a href="#">Home</li></a>
+            <li><a href="#">Hotels</li></a>
+            <li><a href="#">Places</li></a>
+            <li><a href="#"><img class="nav-principal__logo-profile" src="assets/img/elements/profile-logo-simple-white.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="nav-principal"> <!--Navigation for desktop and tablet-->
+        <nav class="nav-elements">
+          <ul>
+            <li><a href="#"><img class="nav-principal__logo" src="assets/img/elements/hotel-logo-color.svg" alt=""></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#"><img class="nav-principal__logo-profile" src="assets/img/elements/profile-logo-simple.svg" alt=""></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <section>
-      <div>
+      <div class="img-banner">
         <img src="assets/img/place/place.png" alt="...">
       </div>
-  
       <div class="container gallery__ul gallery-gap">
         <img src="assets/img/place/reference.png " alt="...">
         <img src="assets/img/place/reference.png " alt="...">

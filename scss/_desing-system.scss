@@ -1,17 +1,18 @@
 //image gallery in place
 
-img{
-    width: 100%;
+.img-banner img{
+  width: 100%;
+  margin-top: 70px;
 }
 
 section {
-    .gallery-gap {
-      margin: 2.5rem auto 2.5rem; //40px 40px
-    }
-  
-    .gallery__ul {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.25rem 4.875rem; //20px 78px
-    }
+  .gallery-gap {
+    margin: 2.5rem auto 2.5rem; //40px 40px
   }
+
+  .gallery__ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.25rem 4.875rem; //20px 78px
+  }
+}
