@@ -3,19 +3,23 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #wrapper {
   margin: 0 auto;
   width: 90%;
-  
 }
 
 .space__sections {
   margin-top: 110px;
 }
 
-.space__sections *{
+.space__sections * {
   margin-bottom: 50px;
+}
+
+.no-style__list {
+  list-style: none;
+  padding-left: 0;
 }

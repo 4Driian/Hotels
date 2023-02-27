@@ -1,5 +1,5 @@
 .nav-principal ul {
-  border-radius: 0px 0px 60px 60px ;
+  border-radius: 0px 0px 60px 60px;
   background-color: rgb(255, 255, 255);
   list-style: none;
   display: flex;
@@ -9,7 +9,8 @@
   margin-bottom: 75px;
 }
 
-.nav-principal__logo, .nav-principal__logo-profile {
+.nav-principal__logo,
+.nav-principal__logo-profile {
   width: 80%;
 }
 
@@ -53,7 +54,7 @@
 }
 
 .navigation__menu-toggle a:active {
-  transition: all 0.2s ease;  
+  transition: all 0.2s ease;
   filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.842));
 }
 
@@ -63,8 +64,8 @@
   position: absolute;
   top: -7px;
   left: -5px;
-  opacity: 0; 
-  z-index: 2; 
+  opacity: 0;
+  z-index: 2;
 }
 
 .navigation__menu-toggle span {
@@ -80,7 +81,8 @@
 
 .navigation__menu-toggle span {
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
 .navigation__menu-toggle input:checked ~ ul {
@@ -107,14 +109,15 @@
 }
 
 @media (max-width: 480px) {
-  .nav-principal, .nav-principal-social {
+  .nav-principal,
+  .nav-principal-social {
     display: none;
   }
 
   .navigation__menu {
     transform-origin: 0% 0%;
     transform: translate(-200%, 0%);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
   .navigation__menu-toggle {
@@ -124,7 +127,7 @@
   .nav-principal__logo {
     width: 50%;
   }
-  .nav-principal__logo-profile{
+  .nav-principal__logo-profile {
     width: 20%;
   }
 }
@@ -134,14 +137,15 @@
     width: 100%;
   }
 
-  .nav-principal, .nav-principal-social {
+  .nav-principal,
+  .nav-principal-social {
     display: none;
   }
 
   .navigation__menu {
     transform-origin: 0% 0%;
     transform: translate(-200%, 0%);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
   .navigation__menu-toggle {
@@ -151,7 +155,7 @@
   .nav-principal__logo {
     width: 60%;
   }
-  .nav-principal__logo-profile{
+  .nav-principal__logo-profile {
     width: 25%;
   }
 }

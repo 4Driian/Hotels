@@ -1,0 +1,45 @@
+.enquiries {
+  //background-image: url(../../assets/background-hotel-form.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #326d31cc;
+  text-align: center;
+}
+
+.enquiries__form {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.form__field {
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+.form__field--white {
+  background: none;
+  border: none;
+  border-bottom: 2px #fff solid;
+  color: #fff;
+  font-size: 20px;
+  padding: 0;
+  width: 50%;
+}
+
+.submit__button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 48px;
+  margin: 65px 0;
+  width: 175px;
+}
+
+.tabs-container {
+  margin: 10px 100px;
+}
