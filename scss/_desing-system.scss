@@ -1,18 +1,21 @@
-//image gallery in place
-
-.img-banner img{
-  width: 100%;
-  margin-top: 70px;
+* {
+  margin: 0;
 }
 
-section {
-  .gallery-gap {
-    margin: 2.5rem auto 2.5rem; //40px 40px
-  }
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
-  .gallery__ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.25rem 4.875rem; //20px 78px
-  }
+#wrapper {
+  margin: 0 auto;
+  width: 90%;
+  
+}
+
+.space__sections {
+  margin-top: 110px;
+}
+
+.space__sections *{
+  margin-bottom: 50px;
 }

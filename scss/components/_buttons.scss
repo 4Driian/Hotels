@@ -1,0 +1,33 @@
+.anchor__animation--green a {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+}
+
+.anchor__animation--green a:focus, .anchor__animation--green a:hover {
+  filter: drop-shadow(5px 5px 3px #00000027);
+    color: #326D31;
+}
+
+.anchor__animation--green a:focus:after, .anchor__animation--green a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.anchor__animation--green a::after {
+  content: "";
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 600ms;
+  border-radius: 50px;
+  background-color: #326D31;
+}
+
