@@ -5,3 +5,5 @@
 - Ian Lara Cerdas
 - Melanie Y. López Alfaro
 - Marilyn Karina Mena Díaz
+
+Github pages(Design System):  https://4driian.github.io/Hotels/design_system.html
