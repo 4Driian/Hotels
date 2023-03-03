@@ -1,0 +1,28 @@
+.background__info{
+    background-color: #9ED79C;
+    padding: 1.875rem; //30px
+}
+
+.center__name{
+  color: white;
+  font-size: 450%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+
+
+@media (max-width: 768px){
+  .center__name{
+    font-size: 350%;
+    top: 20%;
+  }
+}
+
+@media (max-width: 320px){
+  .center__name{
+    font-size: 250%;
+    top: 10%;
+  }
+}
