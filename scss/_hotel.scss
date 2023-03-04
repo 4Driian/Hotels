@@ -1,0 +1,27 @@
+.center__hotel-name{
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  width: 100%;
+}
+
+.space__img-text{
+  margin-top: 20px;
+}
+
+@media (max-width: 768px){
+  .center__hotel-name{
+    color: red;
+    font-size: 350%;
+    top: -10%;
+  }
+}
+
+@media (max-width: 320px){
+  .center__hotel-name{
+    font-size: 250%;
+    top: 5%;
+  }
+}
