@@ -26,9 +26,6 @@
   justify-content: center;
 }
 
-.social-media-contact__icon {
-}
-
 @media (max-width: 768px) {
   .contact-title {
     font-size: 25px;
@@ -37,5 +34,13 @@
 
   .contact-information__list {
     font-size: 15px;
+  }
+
+  .social-media-contact {
+    gap: 5px;
+  }
+
+  .social-media-contact__icon {
+    width: 50%;
   }
 }
