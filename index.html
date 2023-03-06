@@ -4,10 +4,165 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/img/elements/hotel-logo-white.svg">
+  <title>Hotels Leiva</title>
 </head>
+
 <body>
-  <h1>Design Sytem</h1>
-  <a href="design_system.html">Design System</a>
+  <header>
+    <nav role="navigation"> <!--Navigation for mobile-->
+      <div class="navigation__menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="navigation__menu">
+          <li><a href="#"><img class="nav-principal__logo" src="assets/img/elements/hotel-logo-white.svg" alt=""></a>
+          </li>
+          <li><a href="index.html">Home</li></a>
+          <li><a href="#">Hotels</li></a>
+          <li><a href="#">Places</li></a>
+          <li><a href="contact.html">Contact</li></a>
+          <li><a class="login__button-mobile"><img class="nav-principal__logo-profile"
+                src="assets/img/elements/profile-logo-simple-white.svg"></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="nav-principal"> <!--Navigation for desktop and tablet-->
+      <nav class="nav-elements anchor__animation--green">
+        <ul>
+          <li><a href="#"><img class="nav-principal__logo" src="assets/img/elements/hotel-logo-color.svg" alt=""></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="contact.html">Contact</li></a>
+          <li><a class="login__button"><img class="nav-principal__logo-profile"
+                src="assets/img/elements/profile-logo-simple-black.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="login__popup popup"><!--log in Popup-->
+      <div class="popup__content">
+        <button class="popup__close">x</button>
+        <h2 class="popup__heading">Log in</h2>
+        <form class="login__form form" action="#" method="post">
+          <div class="form__group login__form-group">
+            <label class="form__label login__label" for="username">Username</label>
+            <input class="form__input login__input" type="text" id="username" name="username" required>
+          </div>
+          <div class="form__group login__form-group">
+            <label class="form__label login__label" for="password">Password</label>
+            <input class="form__input login__input" type="password" id="password" name="password" required>
+          </div>
+          <button class="form__button login__submit-button">Log in</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <div id="wrapper">
+    <div>
+      <img class="img-home" src="assets/img/destinations/home-img-header.jpg" alt="">
+      <img class="img-home-mobile" src="assets/img/destinations/home-img-header-mobile.jpg" alt="">
+      <h1 class="title__destinations">All our destinations</h1>
+    </div>
+
+    <div class="slider"><!--slider/Pure CSS-->
+
+      <div class="slider-cards"><!--Cards-->
+        <div class="slider__preview-card">
+          <div>
+            <img class="slider__preview-card-img" src="assets/img/destinations/santa teresa-home.jpg" alt="">
+          </div>
+            <a href="#" class="slider-destination">Santa Teresa</a>
+        </div>
+      </div>
+
+      <div class="slider-cards"><!--Cards-->
+        <div class="slider__preview-card">
+          <div>
+            <img class="slider__preview-card-img" src="assets/img/destinations/tamarindo-home.jpg" alt="">
+          </div>
+            <a href="#" class="slider-destination">Tamarindo</a>
+        </div>
+      </div>
+
+      <div class="slider-cards"><!--Cards-->
+        <div class="slider__preview-card">
+          <div>
+            <img class="slider__preview-card-img" src="assets/img/destinations/poas-home.png" alt="">
+          </div>
+            <a href="#" class="slider-destination">Poás</a>
+        </div>
+      </div>
+
+      <div class="slider-cards"><!--Cards-->
+        <div class="slider__preview-card">
+          <div>
+            <img class="slider__preview-card-img" src="assets/img/destinations/papagayo-home.jpg" alt="">
+          </div>
+            <a href="#" class="slider-destination">Papagayo</a>
+        </div>
+      </div>
+
+      <div class="slider-cards"><!--Cards-->
+        <div class="slider__preview-card">
+          <div>
+            <img class="slider__preview-card-img" src="assets/img/destinations/papagayo-home.jpg" alt="">
+          </div>
+            <a href="#" class="slider-destination">Destination</a>
+        </div>
+      </div>
+
+      <div class="slider-cards"><!--Cards-->
+        <div class="slider__preview-card">
+          <div>
+            <img class="slider__preview-card-img" src="assets/img/destinations/papagayo-home.jpg" alt="">
+          </div>
+            <a href="#" class="slider-destination">Destination</a>
+        </div>
+      </div>
+
+      </div>
+  </div><!--wrapper-->
+
+    <a class="modal__button modal__invisible"></a>
+    <footer class="footer__bg">
+      <div class="footer__bg-container">
+        <div class="contact-container">
+          <h2 class="contact-info">Contact</h2>
+        <ul class="no-style__list">
+          <li class="contact-info">proyect.hotels@gmail.com</li>
+          <li class="contact-info">+506 07 42 87 45</li>
+          <li class="contact-info">Escazú, San José, Costa Rica</li>
+        </ul>
+        <div>
+          <ul class="social-media no-style__list">
+            <li class="social-media__icon">
+              <a href="#"><img src="assets/img/elements/facebook-icon.png" alt=""></a>
+            </li>
+            <li class="social-media__icon">
+              <a href="#"><img src="assets/img/elements/instagram-icon.png" alt=""></a>
+            </li>
+            <li class="social-media__icon">
+              <a href="#"><img src="assets/img/elements/twitter-icon.png" alt=""></a>
+            </li>
+            <li class="social-media__icon">
+              <a href="#"><img src="assets/img/elements/tiktok-icon.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="company-info">
+        <label class="company-info" for="subscribe">Subscribe to our newsletter</label>
+        <input class="company-info company__form" type="email" name="subscribe" placeholder="Enter your email">
+        <a class="company-info" href="#">Terms & conditions</a>
+        <img class="company__icon" src="assets/img/elements/hotel-logo-white.svg" alt="">
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
