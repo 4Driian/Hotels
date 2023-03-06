@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,8 +12,9 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-    <title>Destination five</title>
+  <title>Destination five</title>
 </head>
+
 <body>
 
   <section>
@@ -25,7 +27,7 @@
       <img src="assets/img/destinations/manzanillo1.png" alt="...">
       <img src="assets/img/destinations/manzanillo2.png" alt="...">
       <img src="assets/img/destinations/manzanillo3.png" alt="...">
-    </div>     
+    </div>
   </section>
   <section class="tabs-container">
     <div class="tabs">
@@ -34,13 +36,28 @@
     </div>
     <div class="content">
       <div class="content__tab-1 background__info">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime id accusamus veritatis, nisi iusto iste numquam tempora dolor fugiat
-         est mollitia consectetur consequatur, nostrum vel voluptatibus rem voluptatum nam. Quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex praesentium dolorum vel libero architecto iure voluptatum quas eligendi id vero. 
-         Consequatur quidem ad ducimus veritatis voluptate eius consequuntur, itaque culpa?</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime id accusamus veritatis, nisi iusto iste
+          numquam tempora dolor fugiat
+          est mollitia consectetur consequatur, nostrum vel voluptatibus rem voluptatum nam. Quisquam. Lorem ipsum dolor
+          sit amet, consectetur adipisicing elit. Ex praesentium dolorum vel libero architecto iure voluptatum quas
+          eligendi id vero.
+          Consequatur quidem ad ducimus veritatis voluptate eius consequuntur, itaque culpa?</h2>
       </div>
       <div class="content__tab-2 tab__hidden">
         <div>
-          
+          <form class="enquiries">
+            <div class="enquiries__form">
+              <label class="form__field" for="name">Name</label>
+              <input class="form__field form__field--white" type="text" id="name" name="name">
+              <label class="form__field" for="email">Email</label>
+              <input class="form__field form__field--white" type="email" id="email" name="email">
+              <label class="form__field" for="phone">Phone number</label>
+              <input class="form__field form__field--white" type="tel" id="phone" name="phone">
+              <label class="form__field" for="questions">Questions</label>
+              <input class="form__field form__field--white" type="text" id="questions" name="questions">
+            </div>
+            <button class="submit__button" type="submit">Send enquiries</button>
+          </form>
         </div>
       </div>
     </div>
@@ -48,4 +65,5 @@
 
   <script src="js/tabs.js"></script>
 </body>
+
 </html>

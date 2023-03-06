@@ -1,0 +1,41 @@
+.contact-title {
+  color: #326d31;
+  font-size: 40px;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.contact-information {
+  margin: 10px;
+}
+
+.contact-information__list {
+  color: #000;
+  font-size: 32px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-box {
+  margin: 0 40px;
+}
+
+.social-media-contact {
+  display: flex;
+  gap: 55px;
+  justify-content: center;
+}
+
+.social-media-contact__icon {
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 25px;
+    margin: 50px 0;
+  }
+
+  .contact-information__list {
+    font-size: 15px;
+  }
+}
