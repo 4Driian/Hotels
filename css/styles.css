@@ -48,6 +48,10 @@ body {
   width: 100%;
 }
 
+.hero__img {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .center__name {
     font-size: 350%;
