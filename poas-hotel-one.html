@@ -17,7 +17,57 @@
 </head>
 
 <body>
-
+  <header>
+    <nav role="navigation"> <!--Navigation for mobile-->
+      <div class="navigation__menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="navigation__menu">
+          <li><a href="#"><img class="nav-principal__logo" src="assets/img/elements/hotel-logo-white.svg" alt=""></a>
+          </li>
+          <li><a href="index.html">Home</li></a>
+          <li><a href="#">Hotels</li></a>
+          <li><a href="#">Places</li></a>
+          <li><a href="contact.html">Contact</li></a>
+          <li><a class="login__button-mobile"><img class="nav-principal__logo-profile"
+                src="assets/img/elements/profile-logo-simple-white.svg"></a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="nav-principal"> <!--Navigation for desktop and tablet-->
+      <nav class="nav-elements anchor__animation--green">
+        <ul>
+          <li><a href="#"><img class="nav-principal__logo" src="assets/img/elements/hotel-logo-color.svg" alt=""></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Hotels</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="contact.html">Contact</li></a>
+          <li><a class="login__button"><img class="nav-principal__logo-profile"
+                src="assets/img/elements/profile-logo-simple-black.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="login__popup popup"><!--log in Popup-->
+      <div class="popup__content">
+        <button class="popup__close">x</button>
+        <h2 class="popup__heading">Log in</h2>
+        <form class="login__form form" action="#" method="post">
+          <div class="form__group login__form-group">
+            <label class="form__label login__label" for="username">Username</label>
+            <input class="form__input login__input" type="text" id="username" name="username" required>
+          </div>
+          <div class="form__group login__form-group">
+            <label class="form__label login__label" for="password">Password</label>
+            <input class="form__input login__input" type="password" id="password" name="password" required>
+          </div>
+          <button class="form__button login__submit-button">Log in</button>
+        </form>
+      </div>
+    </div>
+  </header>
   <section>
     <div>
       <img class="hero__img" src="assets/img/hotel/poashotel1.png" alt="...">
@@ -40,7 +90,99 @@
       <div class="tabs__content tabs__content-2">Enquiry</div>
     </div>
     <div class="content">
-      <div class="content__tab-1 background__info">
+      <div class="content__tab-1">
+        <div id="wrapper">
+
+
+          <div class="features"><!--Additional features Sum-->
+            <div class="features__container">
+              <div class="features__img">
+                <img src="assets/img/room/Room 13.png" alt="">
+              </div>
+              <div class="features__img">
+                <img src="assets/img/room/Room 13 (2).png" alt="">
+                <img src="assets/img/room/Room 13 (3).png" alt="">
+              </div>
+              <div class="features__info">
+                <h2>Room</h2>
+                <p>Bohemian style room with a king size bed, <br> 1 bathroom and small hallway.</p>
+                <h3>Base price $$$</h3>
+              </div>
+            </div>
+            <form name="additional__features" class="hotel__features">
+              <div>
+                <ul>
+                  <li class="feature__advices--gray">Any room service has an additional cost of <span>100$</span></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Scenic view </label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Breakfast included </label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Hot tub</label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Room service</label></li>
+                </ul>
+              </div>
+              <button class="button__price">Final Price $<output id="price__result">0.0</output></button>
+            </form>
+          </div>
+      
+          <div class="features"><!--Additional features Sum-->
+            <div class="features__container">
+              <div class="features__img">
+                <img src="assets/img/room/Room 14.png" alt="">
+              </div>
+              <div class="features__img">
+                <img src="assets/img/room/Room 14 (2).png" alt="">
+                <img src="assets/img/room/Room 14 (3).png" alt="">
+              </div>
+              <div class="features__info">
+                <h2>Room</h2>
+                <p>Bohemian style room with a king size bed, <br> 1 bathroom and small hallway.</p>
+                <h3><span class="features__price">Base price $$$</span></h3>
+                <h3><span class="features__price-discount">Discounted price $$$</span></h3>
+              </div>
+            </div>
+            <form name="additional__features" class="hotel__features">
+              <div>
+                <ul>
+                  <li class="feature__advices--gray">Any room service has an additional cost of <span>100$</span></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Scenic view </label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Breakfast included </label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Hot tub</label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Room service</label></li>
+                </ul>
+              </div>
+              <button class="button__price">Final Price $<output id="price__result">0.0</output></button>
+            </form>
+          </div>
+      
+          <div class="features"><!--Additional features Sum-->
+            <div class="features__container">
+              <div class="features__img">
+                <img src="assets/img/room/Room 15.png" alt="">
+              </div>
+              <div class="features__img">
+                <img src="assets/img/room/Room 15 (2).png" alt="">
+                <img src="assets/img/room/Room 15 (3).png" alt="">
+              </div>
+              <div class="features__info">
+                <h2>Room</h2>
+                <p>Bohemian style room with a king size bed, <br> 1 bathroom and small hallway.</p>
+                <h3>Base price $$$</h3>
+              </div>
+            </div>
+            <form name="additional__features" class="hotel__features">
+              <div>
+                <ul>
+                  <li class="feature__advices--gray">Any room service has an additional cost of <span>100$</span></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Scenic view </label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Breakfast included </label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Hot tub</label></li>
+                  <li><label for="price"><input type="checkbox" value="100" />Room service</label></li>
+                </ul>
+              </div>
+              <button class="button__price">Final Price $<output id="price__result">0.0</output></button>
+            </form>
+          </div>
+      
+        </div>
       </div>
       <div class="content__tab-2 tab__hidden">
         <div>
@@ -61,8 +203,42 @@
       </div>
     </div>
   </section>
-
+  <footer class="footer__bg">
+    <div class="footer__bg-container">
+      <div class="contact-container">
+        <h2 class="contact-info">Contact</h2>
+      <ul class="no-style__list">
+        <li class="contact-info">proyect.hotels@gmail.com</li>
+        <li class="contact-info">+506 07 42 87 45</li>
+        <li class="contact-info">Escazú, San José, Costa Rica</li>
+      </ul>
+      <div>
+        <ul class="social-media no-style__list">
+          <li class="social-media__icon">
+            <a href="#"><img src="assets/img/elements/facebook-icon.png" alt=""></a>
+          </li>
+          <li class="social-media__icon">
+            <a href="#"><img src="assets/img/elements/instagram-icon.png" alt=""></a>
+          </li>
+          <li class="social-media__icon">
+            <a href="#"><img src="assets/img/elements/twitter-icon.png" alt=""></a>
+          </li>
+          <li class="social-media__icon">
+            <a href="#"><img src="assets/img/elements/tiktok-icon.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="company-info">
+      <label class="company-info" for="subscribe">Subscribe to our newsletter</label>
+      <input class="company-info company__form" type="email" name="subscribe" placeholder="Enter your email">
+      <a class="company-info" href="#">Terms & conditions</a>
+      <img class="company__icon" src="assets/img/elements/hotel-logo-white.svg" alt="">
+    </div>
+  </div>
+</footer>
   <script src="js/tabs.js"></script>
+  <script src="js/cards.js"></script>
 </body>
 
 </html>
