@@ -180,12 +180,14 @@ fetch(`${API}/Hotel`)
       <a href="#" class="slider-destination">Manuel Antonio</a>
     </div>
   </div>
-  <div onclick="prev()" class="control-prev-btn">
-  <img src="assets/img/elements/arrow-prev.svg" alt="">
-</div>
-<div onclick="next()" class="control-next-btn">
-  <img src="assets/img/elements/arrow-next.svg" alt="">
-</div>
+  <div class="control__buttons-container">
+    <div onclick="prev()" class="control-prev-btn">
+      <img src="assets/img/elements/arrow-prev.svg" alt="">
+    </div>
+    <div onclick="next()" class="control-next-btn">
+      <img src="assets/img/elements/arrow-next.svg" alt="">
+    </div>
+  </div>
 `
 
 });
