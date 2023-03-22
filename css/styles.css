@@ -1053,6 +1053,8 @@ body {
     margin-left: 16px;
   }
 
+  
+
   .preview-card-stars {
     width: 50px;
     height: 50px;
@@ -1261,5 +1263,152 @@ button {
     top: 870px;
   }
 }
+
+.titulo-boton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.boton-imagen {
+  background-image: url(../assets/img/hotel/Santahotel1.png);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-2{
+  background-image: url('../assets/img/hotel/Santahotel2.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-3{
+  background-image: url('../assets/img/hotel/Tamahotel1.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-4{
+  background-image: url('../assets/img/hotel/Tamahotel2.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-5{
+  background-image: url('../assets/img/hotel/poashotel1.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-6{
+  background-image: url('../assets/img/hotel/poashotel2.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-7{
+  background-image: url('../assets/img/hotel/Papahotel1.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-8{
+  background-image: url('../assets/img/hotel/Papahotel2.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-9{
+  background-image: url('../assets/img/hotel/Manzahotel1.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-10{
+  background-image: url('../assets/img/hotel/Manzahotel2.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-11{
+  background-image: url('../assets/img/hotel/Forhotel1.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.hotel-12{
+  background-image: url('../assets/img/hotel/Forhotel2.png');
+  background-size: cover;
+  background-position: center;
+  border: none;
+  height: 524px;
+  width: 100%; 
+  cursor: pointer;
+  position: relative;
+}
+
+.content__tab-2--grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  }
 
 /*# sourceMappingURL=styles.css.map */
