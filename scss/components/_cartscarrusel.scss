@@ -6,12 +6,6 @@
   overflow-y: auto;
 }
 
-.galery--carrousel {
-  display: grid;
-  grid-auto-flow: column;
-  overflow-y: auto;
-}
-
 .carrousel::-webkit-scrollbar {
   background-color: rgba(160, 160, 160, 0.356);
   border-radius: 6px;
@@ -20,6 +14,12 @@
 .carrousel::-webkit-scrollbar-thumb {
   background-color: #b3b3b3;
   border-radius: 6px;
+}
+
+.galery--carrousel {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-y: auto;
 }
 
 /* RESPONSIVE CARROUSEL */
@@ -43,36 +43,52 @@
 
 /* TABLET */
 
-  @media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .carrousel {
     gap: 2.5rem;
     margin-bottom: 100px;
     padding: 30px;
+  }
+
+  .carrousel-cards {
+    background: linear-gradient(
+      180deg,
+      rgba(33, 136, 31, 0.38) 0%,
+      rgba(217, 255, 221, 0.38) 100%
+    );
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: inherit;
+    width: 245px;
   }
 
   .galery--carrousel-cards {
     width: 300px;
   }
-
-  .carrousel-cards {
-    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, rgba(217, 255, 221, 0.38) 100%);
-    border-radius: 10px;
-    margin-bottom: 60px;
-    padding: inherit;
-    width: 245px;
-  } 
 }
 
 /* DESKTOP */
 
-  @media (min-width: 769px) {
+@media (min-width: 769px) {
   .carrousel {
+    display: grid;
+    grid-auto-flow: column;
     gap: 2.5rem;
     margin-bottom: 100px;
     padding: 30px;
-    display: grid;
-    grid-auto-flow: column;
     overflow-y: auto;
+  }
+
+  .carrousel-cards {
+    background: linear-gradient(
+      180deg,
+      rgba(33, 136, 31, 0.38) 0%,
+      rgba(217, 255, 221, 0.38) 100%
+    );
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: inherit;
+    width: 200px;
   }
 
   .galery--carrousel {
@@ -81,19 +97,11 @@
     padding: 30px;
   }
 
-  .carrousel-cards {
-    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, rgba(217, 255, 221, 0.38) 100%);
-    border-radius: 10px;
-    margin-bottom: 60px;
-    padding: inherit;
-    width: 200px;
-  }
-
   .galery--carrousel::-webkit-scrollbar {
     background-color: rgba(160, 160, 160, 0.356);
     border-radius: 6px;
   }
-  
+
   .galery--carrousel::-webkit-scrollbar-thumb {
     background-color: #b3b3b3;
     border-radius: 6px;
@@ -109,9 +117,12 @@
 /* MOBILE */
 
 @media (max-width: 480px) {
-
   .preview-card {
-    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(33, 136, 31, 0.38) 0%,
+      rgb(255, 255, 255) 100%
+    );
     display: flex;
     padding: 10px 0 0 28px;
   }
@@ -120,13 +131,13 @@
     width: 80%;
     border-radius: 10px;
   }
-  
+
   .hotel-card-sumary {
-    width: 80%;
     margin-top: -16px;
     margin-left: 16px;
+    width: 80%;
   }
-  
+
   .preview-card-stars {
     width: 50px;
     height: 50px;
@@ -134,39 +145,38 @@
 
   .card-text,
   button {
-    display: none
+    display: none;
   }
 
   .hotel-cards article {
     margin-top: 20px;
-    box-shadow:0.7px 0.7px 0.7px rgba(0, 0, 0, 0.053), 2.5px 2.2px 2.5px rgba(0, 0, 0, 0.077), 11px 10px 11px rgba(0, 0, 0, 0.13);
+    box-shadow: 0.7px 0.7px 0.7px rgba(0, 0, 0, 0.053),
+      2.5px 2.2px 2.5px rgba(0, 0, 0, 0.077), 11px 10px 11px rgba(0, 0, 0, 0.13);
   }
 }
 
-.star{
-  width: 90px;
+.star {
   position: relative;
   right: 11px;
+  width: 90px;
 }
 
-.more-info-button{
+.more-info-button {
+  bottom: 10px;
   color: black;
-  text-decoration: none;
   position: relative;
   right: 20px;
-  bottom: 10px;
+  text-decoration: none;
 }
 
-.gps{
-  display: flex;
+.gps {
   align-items: center;
+  display: flex;
 }
-
 
 /* TABLET */
 
 @media (min-width: 481px) and (max-width: 768px) {
-  
   .hotel-cards {
     display: none;
   }
@@ -177,9 +187,9 @@
   }
 
   .preview-card-img {
+    border-radius: 10px;
     display: flex;
     width: 97%;
-    border-radius: 10px;
   }
 
   .hotel-card-sumary {
@@ -194,16 +204,13 @@
   }
 }
 
-.card-text{
+.card-text {
   margin-top: -15px;
 }
-
-
 
 /* DESKTOP */
 
 @media (min-width: 769px) {
-  
   .hotel-cards {
     display: none;
   }
@@ -214,17 +221,17 @@
   }
 }
 
-.preview-card-img{
+.preview-card-img {
   width: 100%;
 }
 
-.hotel-star{
+.hotel-star {
   display: inline-flex;
 }
 
-.stars{
-  position: relative;
-  width: 90px;
+.stars {
   height: 25px;
   margin-top: 18px;
+  position: relative;
+  width: 90px;
 }

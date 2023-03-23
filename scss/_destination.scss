@@ -1,10 +1,10 @@
-.background__info{
-    background-color: #9ED79C;
-    padding: 1.875rem; //30px
+.background__info {
+  background-color: #9ed79c;
+  padding: 1.875rem; //30px
 }
 
-.center__name{
-  color: white;
+.center__name {
+  color: #fff;
   font-size: 450%;
   position: absolute;
   text-align: center;
@@ -12,19 +12,19 @@
   width: 100%;
 }
 
-.hero__img{
+.hero__img {
   width: 100%;
 }
 
-@media (max-width: 768px){
-  .center__name{
+@media (max-width: 768px) {
+  .center__name {
     font-size: 350%;
     top: 20%;
   }
 }
 
-@media (max-width: 320px){
-  .center__name{
+@media (max-width: 320px) {
+  .center__name {
     font-size: 250%;
     top: 10%;
   }

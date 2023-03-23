@@ -1,19 +1,19 @@
 .popup__content {
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
   background-color: #326d31cc;
-  margin: 0 auto;
-  margin-top: 230px;
+  border-radius: 10px;
   border: none;
   display: grid;
-  border-radius: 10px;
   justify-content: center;
+  margin-top: 230px;
+  margin: 0 auto;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
 }
 
 .popup__heading {
-  text-align: center;
-  margin-top: 0;
-  color: white;
+  color: #fff;
   margin-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
 }
 
 .popup__heading img {
@@ -21,47 +21,47 @@
 }
 
 .popup__close {
-  color: white;
-  font-weight: bold;
-  float: right;
   background: none;
   border: none;
+  color: #fff;
+  float: right;
   font-size: 40px;
-  margin-top: -15px;
+  font-weight: bold;
   margin-right: -15px;
+  margin-top: -15px;
   text-align: end;
 }
 
 .popup__close:hover {
   color: #000;
-  text-decoration: none;
   cursor: pointer;
+  text-decoration: none;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
   transition: all 0.5s ease;
 }
 
 .popup__close:focus {
-  color: white;
+  color: #fff;
 }
 
 .login__label {
-  color: white;
+  color: #fff;
   display: block;
   margin-bottom: 2px;
 }
 
 .login__button {
-  border: none;
   background-color: transparent;
+  border: none;
   cursor: pointer;
 }
 
 .login__input {
-  font-size: 16px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
   border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
   transition: all 0.5s ease;
 }
 
@@ -75,57 +75,57 @@
 }
 
 .login__submit-button {
-  margin-top: 10px;
-  width: 100%;
-  border: none;
-  padding: 9px;
-  border-radius: 5px;
-  color: white;
   background-color: #000;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  padding: 9px;
+  width: 100%;
 }
 
 .login__submit-button:hover {
-  transition: all 0.2s ease;
   background-color: #2b2b2b;
   box-shadow: 0px 0px 10px rgba(63, 63, 63, 0.63);
+  transition: all 0.2s ease;
 }
 
 .login__submit-button:active {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+  color: #000;
   transform: scale(0.95);
   transition: all 0.2s ease;
-  color: #000;
-  background-color: white;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
 }
 
 @media (max-width: 480px) {
   /*Mobile*/
   .popup {
-    display: none;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.753);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
 
   .popup__content {
-    padding: 15px;
-    max-width: 250px;
     border-radius: 5px;
+    max-width: 250px;
+    padding: 15px;
     transition: all 0.5s ease;
   }
 
   .popup__close {
-    color: white;
+    color: #fff;
     font-size: 45px;
   }
 
   .popup__close:focus {
-    color: white;
+    color: #fff;
   }
 
   .login__submit-button {
@@ -137,15 +137,15 @@
 @media (min-width: 481px) and (max-width: 768px) {
   /*Tablet*/
   .popup {
-    display: none;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.753);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
 
   .popup__content {
@@ -154,33 +154,33 @@
     transition: all 0.5s ease;
   }
   .popup__close:focus {
-    color: white;
+    color: #fff;
   }
 
   .login__submit-button {
-    margin-top: 10px;
-    width: 100%;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
     background-color: #000;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
     transition: all 0.5s ease;
+    width: 100%;
   }
 }
 
 @media (min-width: 769px) {
   /*Desktop*/
   .popup {
-    display: none;
-    position: fixed;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
     background-color: rgba(0, 0, 0, 0.753);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
   }
 
   .popup__content {
