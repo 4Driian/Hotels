@@ -1,5 +1,5 @@
-.center__hotel-name{
-  color: white;
+.center__hotel-name {
+  color: #fff;
   font-size: 70px;
   position: absolute;
   text-align: center;
@@ -7,20 +7,20 @@
   width: 100%;
 }
 
-.space__img-text{
+.space__img-text {
   margin-top: 20px;
 }
 
-@media (max-width: 768px){
-  .center__hotel-name{
-    color: red;
+@media (max-width: 768px) {
+  .center__hotel-name {
+    color: re#ff0303;
     font-size: 350%;
     top: -10%;
   }
 }
 
-@media (max-width: 320px){
-  .center__hotel-name{
+@media (max-width: 320px) {
+  .center__hotel-name {
     font-size: 250%;
     top: 5%;
   }
