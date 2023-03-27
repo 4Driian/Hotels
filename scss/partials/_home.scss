@@ -5,9 +5,8 @@
   border-radius: 5px;
 }
 
-
 .title__destinations {
-  margin-bottom: 50px;
+  margin-bottom: -50px;
   font-weight: 400;
 }
 
@@ -21,6 +20,10 @@
   .img-home {
     display: none;
   }
+
+  .title__destinations {
+    margin-bottom: 50px;
+  }
   
   .img-home-mobile {
     margin-top: 50px;
@@ -31,7 +34,6 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  
   .img-home {
     display: none;
   }
@@ -45,7 +47,6 @@
 }
 
 @media (min-width: 769px) {
-
   .img-home-mobile {
     display: none;
   }

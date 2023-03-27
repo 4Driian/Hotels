@@ -76,7 +76,15 @@ fetch(`${API}/Hotel`)
   HTML_tmpl4.innerHTML = `  
   <img class="img-home" src="${heroimage2}" alt="">
   <img class="img-home-mobile" src="assets/img/destinations/home-img-header-mobile.jpg" alt="">
-  <h1 class="title__destinations">All our destinations</h1>`
+  <h1 class="title__destinations">All our destinations</h1>
+  <div class="control__buttons-container">
+    <div onclick="prev()" class="control-prev-btn">
+      <img src="assets/img/elements/arrow-prev.svg" alt="">
+    </div>
+    <div onclick="next()" class="control-next-btn">
+      <img src="assets/img/elements/arrow-next.svg" alt="">
+    </div>
+  </div>`
 //   HTML_tmpl5.innerHTML = `
 //   <div class="slider-cards">
 //   <div class="slider__preview-card">
@@ -259,14 +267,7 @@ fetch(`${API}/Hotel`)
       <a href="#" class="slider-destination">${Hotel[7].Destiny}</a>
     </div>
   </div>
-  <div class="control__buttons-container">
-    <div onclick="prev()" class="control-prev-btn">
-      <img src="assets/img/elements/arrow-prev.svg" alt="">
-    </div>
-    <div onclick="next()" class="control-next-btn">
-      <img src="assets/img/elements/arrow-next.svg" alt="">
-    </div>
-  </div>
+  
 `
 
 });
