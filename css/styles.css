@@ -98,7 +98,7 @@ body {
 }
 
 .title__destinations {
-  margin-bottom: 50px;
+  margin-bottom: -50px;
   font-weight: 400;
 }
 
@@ -111,6 +111,10 @@ body {
 @media (max-width: 480px) {
   .img-home {
     display: none;
+  }
+  
+  .title__destinations {
+    margin-bottom: 50px;
   }
   .img-home-mobile {
     margin-top: 50px;
@@ -243,7 +247,7 @@ p {
 }
 
 .feature__advices--gray {
-  color: rgba(82, 82, 82, 0.4941176471);
+  color: #5252527e;
   text-decoration: underline;
 }
 
@@ -258,8 +262,8 @@ p {
 }
 
 .button__price:hover {
-  background: rgb(92, 172, 91);
-  color: rgb(0, 0, 0);
+  background: #5cac5b;
+  color: black;
   letter-spacing: 0.5px;
   transition: all 0.1s ease-in;
 }
@@ -386,7 +390,7 @@ p {
 
 .anchor__animation--green a:focus,
 .anchor__animation--green a:hover {
-  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.1529411765));
+  filter: drop-shadow(5px 5px 3px #00000027);
   color: #326d31;
 }
 
@@ -436,7 +440,7 @@ p {
 }
 
 .navigation__menu {
-  background-color: rgba(50, 109, 49, 0.8);
+  background-color: #326d31cc;
   border-radius: 10px;
   list-style-type: none;
   margin: -100px 0 0 -50px;
@@ -566,7 +570,7 @@ p {
   }
 }
 .popup__content {
-  background-color: rgba(50, 109, 49, 0.8);
+  background-color: #326d31cc;
   border-radius: 10px;
   border: none;
   display: grid;
@@ -1001,7 +1005,7 @@ p {
 .enquiries {
   background-size: cover;
   background-position: center;
-  background-color: rgba(50, 109, 49, 0.8);
+  background-color: #326d31cc;
   background-repeat: no-repeat;
   background-image: url(../assets/img/elements/background-hotel-form.png);
   text-align: center;
@@ -1140,7 +1144,7 @@ p {
 /* MOBILE */
 @media (max-width: 480px) {
   .preview-card {
-    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, white 100%);
     display: flex;
     padding: 10px 0 0 28px;
   }
@@ -1263,7 +1267,7 @@ p {
 }
 
 .slider-destination {
-  bottom: 101px;
+  bottom: 114px;
   color: #fff;
   font-size: 25px;
   position: relative;
@@ -1273,20 +1277,28 @@ p {
 }
 
 .slider-destination:hover {
-  color: rgba(248, 248, 248, 0.9843137255);
+  color: #f8f8f8fb;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
   transition: all 0.2s ease;
 }
 
+.control__buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .control-prev-btn img {
   cursor: pointer;
-  position: absolute;
+  position: relative;
+  top: 147px;
   width: 42px;
 }
 
 .control-next-btn img {
   cursor: pointer;
-  position: absolute;
+  position: relative;
+  top: 147px;
   width: 42px;
 }
 
@@ -1302,15 +1314,25 @@ p {
 }
 
 @media (max-width: 480px) {
+  .slider__img {
+    width: 250px;
+  }
+
+  .slider-destination {
+    bottom: 100px;
+  }
   .control-prev-btn img {
     display: none;
+    transition: all 0.2s ease;
   }
   .control-next-btn img {
     display: none;
+    transition: all 0.2s ease;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   #slider-container {
+    transition: all 0.2s ease;
     width: 65%;
   }
   .slider {
@@ -1319,18 +1341,12 @@ p {
     overflow-y: hidden;
     padding: 16px;
     scroll-behavior: smooth;
-  }
-  .control-prev-btn img {
-    left: 25px;
-    top: 800px;
-  }
-  .control-next-btn img {
-    right: 25px;
-    top: 800px;
+    transition: all 0.2s ease;
   }
 }
 @media (min-width: 769px) {
   #slider-container {
+    transition: all 0.2s ease;
     width: 80%;
   }
   .slider {
@@ -1339,14 +1355,7 @@ p {
     overflow-y: hidden;
     padding: 16px;
     scroll-behavior: smooth;
-  }
-  .control-prev-btn img {
-    left: 150px;
-    top: 870px;
-  }
-  .control-next-btn img {
-    right: 89px;
-    top: 870px;
+    transition: all 0.2s ease;
   }
 }
 
