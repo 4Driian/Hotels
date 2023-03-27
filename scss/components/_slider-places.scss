@@ -23,7 +23,7 @@
 }
 
 .slider-destination {
-  bottom: 101px;
+  bottom: 114px;
   color: #fff;
   font-size: 25px;
   position: relative;
@@ -38,15 +38,22 @@
   transition: all 0.2s ease;
 }
 
+.control__buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .control-prev-btn img {
   cursor: pointer;
-  position: absolute;
+  position: relative;
+  top: 147px;
   width: 42px;
 }
 
 .control-next-btn img {
   cursor: pointer;
-  position: absolute;
+  position: relative;
+  top: 147px;
   width: 42px;
 }
 
@@ -62,17 +69,28 @@
 }
 
 @media (max-width: 480px) {
+  .slider__img {
+    width: 250px;
+  }
+
+  .slider-destination {
+    bottom: 100px;
+  }
+
   .control-prev-btn img {
     display: none;
+    transition: all 0.2s ease;
   }
 
   .control-next-btn img {
     display: none;
+    transition: all 0.2s ease;
   }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   #slider-container {
+    transition: all 0.2s ease;
     width: 65%;
   }
 
@@ -82,38 +100,24 @@
     overflow-y: hidden;
     padding: 16px;
     scroll-behavior: smooth;
+    transition: all 0.2s ease;
   }
 
-  .control-prev-btn img {
-    left: 25px;
-    top: 800px;
-  }
-
-  .control-next-btn img {
-    right: 25px;
-    top: 800px;
-  }
 }
 
 @media (min-width: 769px) {
   #slider-container {
+    transition: all 0.2s ease;
     width: 80%;
   }
+
   .slider {
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
     padding: 16px;
     scroll-behavior: smooth;
+    transition: all 0.2s ease;
   }
 
-  .control-prev-btn img {
-    left: 150px;
-    top: 870px;
-  }
-
-  .control-next-btn img {
-    right: 89px;
-    top: 870px;
-  }
 }
