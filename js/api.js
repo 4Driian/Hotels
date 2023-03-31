@@ -101,7 +101,7 @@ fetch(`${API}/Hotel`)
     <div class="slide">
     <img class="slider__img" src="${hotels.ImageDS}" alt="">
     <div>
-      <a href="/desti-one.html?id=${hotels.id}" class="slider-destination">${hotels.Destiny}</a>
+      <a href="./desti-one.html?id=${hotels.id}" class="slider-destination">${hotels.Destiny}</a>
     </div>
   </div> `
     )
