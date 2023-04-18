@@ -7,3 +7,5 @@
 - Marilyn Karina Mena Díaz
 
 Github pages(index): https://4driian.github.io/Hotels/index.html
+
+Github pages(Design System): https://4driian.github.io/Hotels/design_system.html
