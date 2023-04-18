@@ -1,4 +1,4 @@
-# Proyecto 1 - Hotels
+# Proyecto Final JavaScript
 
 - Adrián Francisco Zúñiga Pérez
 - Fabian Sandoval Elizondo
@@ -7,5 +7,3 @@
 - Marilyn Karina Mena Díaz
 
 Github pages(index): https://4driian.github.io/Hotels/index.html
-
-Github pages(Design System):  https://4driian.github.io/Hotels/design_system.html
