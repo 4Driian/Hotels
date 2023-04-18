@@ -1,5 +1,4 @@
-# Proyecto Final JavaScript
-
+# Proyecto - Proyecto 1
 - Adrián Francisco Zúñiga Pérez
 - Fabian Sandoval Elizondo
 - Ian Lara Cerdas
