@@ -1,4 +1,4 @@
-# Proyecto 1 - Hotels
+# Proyecto Final JavaScript
 
 - Adrián Francisco Zúñiga Pérez
 - Fabian Sandoval Elizondo
