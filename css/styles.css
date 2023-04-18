@@ -112,7 +112,6 @@ body {
   .img-home {
     display: none;
   }
-  
   .title__destinations {
     margin-bottom: 50px;
   }
@@ -247,7 +246,7 @@ p {
 }
 
 .feature__advices--gray {
-  color: #5252527e;
+  color: rgba(82, 82, 82, 0.4941176471);
   text-decoration: underline;
 }
 
@@ -262,8 +261,8 @@ p {
 }
 
 .button__price:hover {
-  background: #5cac5b;
-  color: black;
+  background: rgb(92, 172, 91);
+  color: rgb(0, 0, 0);
   letter-spacing: 0.5px;
   transition: all 0.1s ease-in;
 }
@@ -390,7 +389,7 @@ p {
 
 .anchor__animation--green a:focus,
 .anchor__animation--green a:hover {
-  filter: drop-shadow(5px 5px 3px #00000027);
+  filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.1529411765));
   color: #326d31;
 }
 
@@ -440,7 +439,7 @@ p {
 }
 
 .navigation__menu {
-  background-color: #326d31cc;
+  background-color: rgba(50, 109, 49, 0.8);
   border-radius: 10px;
   list-style-type: none;
   margin: -100px 0 0 -50px;
@@ -570,7 +569,7 @@ p {
   }
 }
 .popup__content {
-  background-color: #326d31cc;
+  background-color: rgba(50, 109, 49, 0.8);
   border-radius: 10px;
   border: none;
   display: grid;
@@ -669,6 +668,10 @@ p {
   transition: all 0.2s ease;
 }
 
+.user-welcome {
+  font-size: 30px;
+}
+
 @media (max-width: 480px) {
   /*Mobile*/
   .popup {
@@ -764,155 +767,6 @@ p {
   text-align: center;
 }
 
-.hotel-1 {
-  background-image: url(../assets/img/hotel/Santahotel1.png);
-  background-position: center;
-  background-size: cover;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.content__tab-2--grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.hotel-2 {
-  background-image: url("../assets/img/hotel/Santahotel2.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-3 {
-  background-image: url("../assets/img/hotel/Tamahotel1.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-4 {
-  background-image: url("../assets/img/hotel/Tamahotel2.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-5 {
-  background-image: url("../assets/img/hotel/poashotel1.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-6 {
-  background-image: url("../assets/img/hotel/poashotel2.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-7 {
-  background-image: url("../assets/img/hotel/Papahotel1.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-8 {
-  background-image: url("../assets/img/hotel/Papahotel2.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-9 {
-  background-image: url("../assets/img/hotel/Manzahotel1.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-10 {
-  background-image: url("../assets/img/hotel/Manzahotel2.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-11 {
-  background-image: url("../assets/img/hotel/Forhotel1.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.hotel-12 {
-  background-image: url("../assets/img/hotel/Forhotel2.png");
-  background-size: cover;
-  background-position: center;
-  border: none;
-  cursor: pointer;
-  height: 524px;
-  position: relative;
-  width: 100%;
-}
-
-.titulo-boton {
-  color: #fff;
-  font-size: 36px;
-  font-weight: bold;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
 .company__icon {
   width: 45%;
 }
@@ -1005,7 +859,7 @@ p {
 .enquiries {
   background-size: cover;
   background-position: center;
-  background-color: #326d31cc;
+  background-color: rgba(50, 109, 49, 0.8);
   background-repeat: no-repeat;
   background-image: url(../assets/img/elements/background-hotel-form.png);
   text-align: center;
@@ -1144,7 +998,7 @@ p {
 /* MOBILE */
 @media (max-width: 480px) {
   .preview-card {
-    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, white 100%);
+    background: linear-gradient(180deg, rgba(33, 136, 31, 0.38) 0%, rgb(255, 255, 255) 100%);
     display: flex;
     padding: 10px 0 0 28px;
   }
@@ -1277,7 +1131,7 @@ p {
 }
 
 .slider-destination:hover {
-  color: #f8f8f8fb;
+  color: rgba(248, 248, 248, 0.9843137255);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
   transition: all 0.2s ease;
 }
@@ -1286,7 +1140,6 @@ p {
   display: flex;
   justify-content: space-between;
 }
-
 
 .control-prev-btn img {
   cursor: pointer;
@@ -1317,7 +1170,6 @@ p {
   .slider__img {
     width: 250px;
   }
-
   .slider-destination {
     bottom: 100px;
   }
