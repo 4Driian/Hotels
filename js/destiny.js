@@ -36,3 +36,19 @@ fetch(`${API}/Room`)
     </button>
   </a>`
 })
+
+/*fetch(`${API}/Hotel`)
+.then((response) => response.json())
+.then((Hotel) =>{
+    let tmpl = Hotel.map((hotels) => 
+    `      
+    <div class="slide">
+    <img class="slider__img" src="${hotels.ImageDS}" alt="">
+    <div>
+      <a href="./desti-one.html?id=${hotels.id}" class="slider-destination">${hotels.Destiny}</a>
+    </div>
+  </div> `
+    )
+    let HTML_tmpl10 = document.querySelector("#slider-container");
+    HTML_tmpl10.innerHTML += `${tmpl}`    
+});*/
