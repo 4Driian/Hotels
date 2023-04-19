@@ -106,5 +106,5 @@ fetch(`${API}/Hotel`)
   </div> `
     )
     let HTML_tmpl10 = document.querySelector("#slider-container");
-    HTML_tmpl10.innerHTML += `${tmpl}`    
+    HTML_tmpl10.innerHTML += `${tmpl.join(' ')}`    
 });
